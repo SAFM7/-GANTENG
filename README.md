@@ -23,14 +23,16 @@ You can simply run the following command (the Windows example, more information 
 We have provided five models:
 
 realesrgan-x4plus (default)
-realesrnet-x4plus
-realesrgan-x4plus-anime (optimized for anime images, small model size)
-realesr-animevideov3 (animation video)
-You can use the -n argument for other models, for example, ./realesrgan-ncnn-vulkan.exe -i input.jpg -o output.png -n realesrnet-x4plus
+  realesrnet-x4plus
+  realesrgan-x4plus-anime (optimized for anime images, small model size)
+  realesr-animevideov3 (animation video)
+You can use the -n argument for other models, for example, 
+  ./realesrgan-ncnn-vulkan.exe -i input.jpg -o output.png -n realesrnet-x4plus
 
 Usage of portable executable files
 Please refer to Real-ESRGAN-ncnn-vulkan for more details.
 Note that it does not support all the functions (such as outscale) as the python script inference_realesrgan.py.
-Usage: realesrgan-ncnn-vulkan.exe -i infile -o outfile [options]...
 
 Usage: realesrgan-ncnn-vulkan.exe -i infile -o outfile [options]...
+
+I hope you dont read all of this text because I'm too lazy to make it cooler to look :D
