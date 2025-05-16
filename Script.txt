@@ -1,0 +1,7 @@
+realesrgan-ncnn-vulkan.exe -i input.jpg -o output.png -n model_name
+
+realesrgan-x4plus (default)
+realesrnet-x4plus
+realesrgan-x4plus-anime (optimized for anime images, small model size)
+RealESRGANv2-animevideo-xsx2 (anime video, X2)
+RealESRGANv2-animevideo-xsx4 (anime video, X4)
