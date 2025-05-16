@@ -33,6 +33,8 @@ Please refer to Real-ESRGAN-ncnn-vulkan for more details.
 Note that it does not support all the functions (such as outscale) as the python script inference_realesrgan.py.
 Usage: realesrgan-ncnn-vulkan.exe -i infile -o outfile [options]...
 
+Usage: realesrgan-ncnn-vulkan.exe -i infile -o outfile [options]...
+
   -h                   show this help
   -i input-path        input image path (jpg/png/webp) or directory
   -o output-path       output image path (jpg/png/webp) or directory
