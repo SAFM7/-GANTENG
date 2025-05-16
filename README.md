@@ -23,10 +23,15 @@ You can simply run the following command (the Windows example, more information 
 We have provided five models:
 
 realesrgan-x4plus (default)
-  realesrnet-x4plus
-  realesrgan-x4plus-anime (optimized for anime images, small model size)
-  realesr-animevideov3 (animation video)
+  
+realesrnet-x4plus
+  
+realesrgan-x4plus-anime (optimized for anime images, small model size)
+
+realesr-animevideov3 (animation video)
+
 You can use the -n argument for other models, for example, 
+  
   ./realesrgan-ncnn-vulkan.exe -i input.jpg -o output.png -n realesrnet-x4plus
 
 Usage of portable executable files
